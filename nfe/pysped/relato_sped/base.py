@@ -203,7 +203,7 @@ class BandaDANFE(ReportBand):
         lbl = self._inclui_titulo(nome, titulo, top, left, width, height, margem_direita)
         self.elements.append(lbl)
 
-        fld = self._inclui_campo(nome, conteudo, top, left, width, height)
+        fld = self._inclui_campo(nome, conteudo, top+0.1*cm, left, width, height)
         fld.padding_top = 0.25*cm
         self.elements.append(fld)
 
