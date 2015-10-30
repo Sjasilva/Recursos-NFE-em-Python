@@ -733,8 +733,8 @@ class CabProdutoRetrato(BandaDANFE):
         lbl = self.inclui_descritivo_produto(nome='', titulo='VALOR UNITÁRIO', top=0.42*cm, left=12.34*cm, width=1.4*cm, height=-0.26*cm)
         lbl = self.inclui_descritivo_produto(nome='', titulo='VALOR TOTAL', top=0.42*cm, left=13.74*cm, width=1.2*cm, height=-0.26*cm)
         lbl.padding_top = 0.15*cm
-        lbl = self.inclui_descritivo_produto(nome='', titulo='BASE CÁLC. DO ICMS', top=0.42*cm, left=14.94*cm, width=1.2*cm, height=-0.26*cm)
-        lbl = self.inclui_descritivo_produto(nome='', titulo='VALOR DO ICMS', top=0.42*cm, left=16.14*cm, width=1.05*cm, height=-0.26*cm)
+        lbl = self.inclui_descritivo_produto(nome='', titulo='BASE CÁLC. DO ICMS', top=0.42*cm, left=14.94*cm, width=1.2*cm, height=-0.52*cm)
+        lbl = self.inclui_descritivo_produto(nome='', titulo='VALOR DO ICMS', top=0.42*cm, left=16.14*cm, width=1.05*cm, height=-0.52*cm)
         lbl = self.inclui_descritivo_produto(nome='', titulo='VALOR DO IPI', top=0.42*cm, left=17.19*cm, width=1.05*cm, height=-0.26*cm)
         #lbl.padding_top = 0.15*cm
         lbl = self.inclui_descritivo_produto(nome='', titulo='ALÍQUOTAS', top=0.42*cm, left=18.24*cm, width=1.16*cm, height=-0.26*cm, margem_direita=True)
