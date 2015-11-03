@@ -68,7 +68,7 @@ class NohXML(object):
         if arquivo is not None:
             if isinstance(arquivo, basestring):
                 if isinstance(arquivo, str):
-                    arquivo = unicode(arquivo.encode('utf-8'))
+                    arquivo = unicode(arquivo.decode('utf-8'))
                 if u'<' in arquivo:
                     self._xml = etree.fromstring(tira_abertura(arquivo))
                 else:
