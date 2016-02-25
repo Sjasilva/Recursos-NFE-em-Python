@@ -1456,7 +1456,7 @@ class Avulsa(nfe_110.Avulsa):
 class EnderEmit(nfe_110.EnderEmit):
     def __init__(self):
         super(EnderEmit, self).__init__()
-        self.fone    = TagInteiro(nome=u'fone'    , codigo=u'C16', tamanho=[ 6, 14]   , raiz=u'//NFe/infNFe/emit/enderEmit', obrigatorio=False)
+        self.fone    = TagCaracter(nome=u'fone'    , codigo=u'C16', tamanho=[ 6, 14]   , raiz=u'//NFe/infNFe/emit/enderEmit', obrigatorio=False)
 
 
 class Emit(nfe_110.Emit):

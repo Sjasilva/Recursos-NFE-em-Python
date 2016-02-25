@@ -988,7 +988,7 @@ class EnderDest(nfe_200.EnderDest):
         self.CEP     = TagCaracter(nome=u'CEP'    , codigo=u'E13', tamanho=[ 8,  8, 8], raiz=u'//NFe/infNFe/dest/enderDest', obrigatorio=False)
         self.cPais   = TagInteiro(nome=u'cPais'   , codigo=u'E14', tamanho=[ 4,  4, 4], raiz=u'//NFe/infNFe/dest/enderDest', obrigatorio=False)
         self.xPais   = TagCaracter(nome=u'xPais'  , codigo=u'E15', tamanho=[ 1, 60]   , raiz=u'//NFe/infNFe/dest/enderDest', obrigatorio=False)
-        self.fone    = TagInteiro(nome=u'fone'    , codigo=u'E16', tamanho=[ 1, 10]   , raiz=u'//NFe/infNFe/dest/enderDest', obrigatorio=False)
+        self.fone    = TagCaracter(nome=u'fone'    , codigo=u'E16', tamanho=[ 1, 10]   , raiz=u'//NFe/infNFe/dest/enderDest', obrigatorio=False)
         # self.indIEDest    = TagCaracter(nome=u'indIEDest'    , codigo=u'E16a', tamanho=[ 1, 1], raiz=u'//NFe/infNFe/dest/enderDest', valor=u'9')
 
     def get_xml(self):
